@@ -1,6 +1,6 @@
 body {
     background: rgb(230, 181, 252);
-    color: rgb(45, 45, 45);
+    color: rgb(237, 125, 201);
     padding: 10px;
     font-family: arial;
 }
@@ -54,9 +54,10 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(171, 204, 210) ridge;
     padding: 8px;
 }
 h2, h3 {
     margin: 0px;
 }
+
