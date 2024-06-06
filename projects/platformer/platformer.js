@@ -44,12 +44,9 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-    createPlatform(300,480,300,15); //short but wide located 450 pixels from the right of the screen and 300 pixels from the top of the screen 
-    createPlatform(310,540,310,15); // short and narrow located 300 pixels from the left of the screen
-    createPlatform(250,300,210,10);//short and narrow located 700 pixels from the right of the screen
-    createPlatform(250,300,210,10);
-
-
+    createPlatform(100,190,79,10); //short but wide located 17 pixels from the right of the screen and 10 pixels from the bottom left of the screen 
+    createPlatform(350,395,220,30);//short and narrow located 80 pixels from the bottom of the screen and 60 pixels from the left of the screen
+    createPlatform(400,695,415,51);// short and wide platform locared 100 pixels from the right of the screen and 110 pixels from the left
     
     // TODO 2
     // Create collectables
