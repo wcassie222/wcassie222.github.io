@@ -45,18 +45,20 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 
     createPlatform(100,190,79,10); //short but wide located 17 pixels from the right of the screen and 10 pixels from the bottom left of the screen 
-    createPlatform(350,395,220,30);//short and narrow located 80 pixels from the bottom of the screen and 60 pixels from the left of the screen
-    createPlatform(400,695,415,51);// short and wide platform locared 100 pixels from the right of the screen and 110 pixels from the left
-    
+    createPlatform(350,450,240,30);//short and narrow located 80 pixels from the bottom of the screen and 60 pixels from the left of the screen
+    createPlatform(400,720,415,70);// short and wide platform located 100 pixels from the right of the screen and 110 pixels from the left
+    createPlatform(200,270,325,25);// short and wide platform located 70 pixels from the right of the screen and 90 pixels from the left of the screen
+    createPlatform (550,570,155,20); // short and narrow located 20 pixels from the right of the screen and 20 pixels from the bottom of the screen
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
-    createCollectable("diamond", 490,290,9.8,0.2);
-    createCollectable("kennedi", 500,300);
-    createCollectable("daimond", 400,100);
+    createCollectable("database", 490,290,9.8,0.2);
+    createCollectable("database", 200, 500,300);
+    createCollectable("database", 400,100,300);
+    createCollectable("database", 110,100,800)
 
 
 
@@ -67,7 +69,8 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
    
-    createCannon("-left",600,1000) // cannon of left wall 700px down, shooting one every two seconds 
+    createCannon(left,600,1000) // cannon on left wall 700px down, shooting one every two seconds 
+    createCannon(top,300,700) 
 
 
 
